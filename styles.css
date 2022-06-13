@@ -1,0 +1,151 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #111; */
+  background: url(https://wallpaperaccess.com/full/33212.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+.panel {
+  position: absolute;
+  top: 0;
+  left: 22%;
+  display: flex;
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 5px;
+  border: #111;
+  font-size: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.clear {
+  background: linear-gradient(to right,rgb(94, 92, 92), rgb(172, 157, 157));
+  color: aliceblue;
+}
+
+.clear:hover {
+  box-shadow: 0px 20px 100px rgb(172, 157, 157);
+  border: 2px solid gold;
+}
+
+#red {
+  background-color: red;
+  color: aliceblue;
+}
+
+#red:hover {
+  box-shadow: 0px 20px 100px red;
+  border: 2px solid gold;
+}
+
+#blue {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#blue:hover {
+  box-shadow: 0px 20px 100px blue;
+  border: 2px solid gold;
+}
+
+#white {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+#white:hover {
+  box-shadow: 0px 20px 100px white;
+  border: 2px solid gold;
+}
+
+#yellow {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+}
+
+#yellow:hover {
+  box-shadow: 0px 20px 100px yellow;
+  border: 2px solid gold;
+}
+
+#green {
+  background-color: lime;
+  color: rgb(0, 0, 0);
+}
+
+#green:hover {
+  box-shadow: 0px 20px 100px lime;
+  border: 2px solid gold;
+}
+
+#pink {
+  background-color: pink;
+  color: rgb(0, 0, 0);
+}
+
+#pink:hover {
+  box-shadow: 0px 20px 100px pink;
+  border: 2px solid gold;
+}
+
+#gay {
+  background-color: skyblue;
+  color: rgb(0, 0, 0);
+}
+
+#gay:hover {
+  box-shadow: 0px 20px 100px skyblue;
+  border: 2px solid gold;
+}
+
+#random {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  color: aliceblue;
+}
+
+#random:hover {
+  box-shadow: 0px 20px 100px rebeccapurple;
+  border: 2px solid gold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 2000px;
+}
+
+.square {
+  height: 32px;
+  width: 32px;
+  background: #1d1d1d;
+  margin: 2px;
+  box-shadow: 0 0 2px black;
+  transition:  2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
